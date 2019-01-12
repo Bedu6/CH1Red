@@ -1,0 +1,37 @@
+.navbar-custom {
+  background-color: #ffffff;
+}
+.navbar-custom .navbar-nav .nav-link {
+  color: #2d96cd;
+}
+.navbar-custom .nav-item:hover .nav-link {
+  color: #6b7f8c;
+}
+
+.custom-button {
+  border-radius: 0;
+  border-color: #2d96cd;
+  background-color: #2d96cd;
+  color: #ffffff;
+}
+.custom-button:hover {
+  border-color: #2d96cd;
+  background-color: #ffffff;
+  color: #6b7f8c;
+}
+
+.ford-button-text {
+  border: none;
+  background-color: transparent;
+  color: #2d96cd;
+}
+.ford-button-text:hover {
+  background-color: transparent;
+  color: #2d96cd;
+}
+
+.banner {
+  width: 100%;
+}
+
+/*# sourceMappingURL=cristian.css.map */

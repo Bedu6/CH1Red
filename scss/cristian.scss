@@ -1,0 +1,41 @@
+@import 'colors';
+
+.navbar-custom {
+    background-color: $custom-white;
+
+    .navbar-nav .nav-link {
+        color: $custom-blue;
+    }
+
+    .nav-item:hover .nav-link {
+        color: $custom-gray;
+    }
+}
+
+.custom-button {
+    border-radius: 0;
+    border-color: $custom-blue;
+    background-color: $custom-blue;
+    color: $custom-white;
+
+    &:hover {
+        border-color: $custom-blue;
+        background-color: $custom-white;
+        color: $custom-gray;
+    }
+}
+
+.ford-button-text {
+    border: none;
+    background-color: transparent;
+    color: $custom-blue;
+
+    &:hover {
+        background-color: transparent;
+        color: $custom-blue;
+    }
+}
+
+.banner {
+    width: 100%;
+}
