@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Ford Antenna Bold";
+  src: url("../fonts/Ford-Antenna-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Ford Antenna Regular";
+  src: url("../fonts/Ford-Antenna-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Ford Antenna Light";
+  src: url("../fonts/Ford-Antenna-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Ford Antenna Light Italic";
+  src: url("../fonts/Ford-Antenna-Light-Italic.woff") format("woff");
+}
 @media (max-width: 576px) {
   body {
     margin: 0;
@@ -15,15 +31,21 @@
   }
 
   .main-container {
-    border-left: 1px solid #2D96CD;
-    border-right: 1px solid #2D96CD;
+    border-left: 1px solid #DBDBDB;
+    border-right: 1px solid #DBDBDB;
   }
 }
 .bg-ford {
   background-color: #FFFFFF;
 }
 .bg-ford .navbar-brand {
+  font-family: "Ford Antenna Bold";
+  font-size: 12px;
   color: #2D96CD;
+}
+.bg-ford .navbar-brand .navbar-brand-text {
+  margin-left: 8px;
+  line-height: 32px;
 }
 .bg-ford .navbar-brand:hover {
   color: #2D96CD;
@@ -32,7 +54,7 @@
   color: #2D96CD;
 }
 .bg-ford .nav-item:hover .nav-link {
-  color: #6B7F8C;
+  color: #75787B;
 }
 
 .navbar .navbar-toggler {
@@ -40,6 +62,99 @@
 }
 .navbar .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(45, 150, 205, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+h2 {
+  font-family: "Ford Antenna Regular";
+  font-size: 40px;
+  text-align: center;
+  color: #75787B;
+}
+
+h3 {
+  font-family: "Ford Antenna Light";
+  font-size: 40px;
+  color: #6B7F8C;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Ford Antenna Light";
+  font-size: 16px;
+  color: #6B7F8C;
+  text-align: center;
+}
+
+h5 {
+  font-family: "Ford Antenna Regular";
+  font-size: 16px;
+  color: #FFFFFF;
+  margin: 24px 0;
+}
+
+.search-section {
+  padding: 64px 0;
+  background-color: #F3F3F3;
+}
+
+.ford-button {
+  height: 64px;
+  border: 1px solid #2D96CD;
+  border-radius: 0;
+  background-color: #2D96CD;
+  font-family: "Ford Antenna Light";
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.ford-button:hover {
+  border: 1px solid #2D96CD;
+  background-color: #FFFFFF;
+  color: #2D96CD;
+}
+
+.ford-input {
+  height: 64px;
+  border: none;
+  border-radius: 0;
+  font-family: "Ford Antenna Light Italic";
+  font-size: 20px;
+}
+
+.ford-link {
+  font-family: "Ford Antenna Bold";
+  font-size: 12px;
+  color: #2D96CD;
+}
+
+/* Pendiente de revisar */
+.info-title {
+  position: relative;
+}
+
+.info-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Pendiente de revisar */
+ul {
+  list-style-type: none;
+  margin-bottom: 24px;
+  padding: 0;
+}
+
+li {
+  margin-top: 8px;
+  font-family: "Ford Antenna Light";
+  font-size: 14px;
+}
+li:first-child {
+  margin-top: 0px;
+}
+li a {
+  color: #75787B;
 }
 
 /*# sourceMappingURL=cristian.css.map */

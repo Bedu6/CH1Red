@@ -7,8 +7,15 @@
     background-color: $custom-white;
 
     .navbar-brand {
+        font-family: 'Ford Antenna Bold';
+        font-size: 12px;
         color: $custom-blue;
 
+        .navbar-brand-text {
+            margin-left: 8px;
+            line-height: 32px;
+        }
+        
         &:hover {
             color: $custom-blue;
         }
@@ -19,7 +26,7 @@
     }
 
     .nav-item:hover .nav-link {
-        color: $custom-gray;
+        color: $custom-darkergray;
     }
 }
 
@@ -30,5 +37,102 @@
 
     .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(45, 150, 205, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+}
+
+h2 {
+    font-family: 'Ford Antenna Regular';
+    font-size: 40px;
+    text-align: center;
+    color: $custom-darkergray;
+}
+
+h3 {
+    font-family: 'Ford Antenna Light';
+    font-size: 40px;
+    color: $custom-darkgray;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Ford Antenna Light';
+    font-size: 16px;
+    color: $custom-darkgray;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Ford Antenna Regular';
+    font-size: 16px;
+    color: $custom-white;
+    margin: 24px 0;
+}
+
+.search-section {
+    padding: 64px 0;
+    background-color: $custom-lightgray;
+}
+
+.ford-button {
+    height: 64px;
+    border: 1px solid $custom-blue;
+    border-radius: 0;
+    background-color: $custom-blue;
+    font-family: 'Ford Antenna Light';
+    font-size: 20px;
+    color: $custom-white;
+
+    &:hover {
+        border: 1px solid $custom-blue;
+        background-color: $custom-white;
+        color: $custom-blue;
+    }
+}
+
+.ford-input {
+    height: 64px;
+    border: none;
+    border-radius: 0;
+    font-family: 'Ford Antenna Light Italic';
+    font-size: 20px;
+}
+
+.ford-link {
+    font-family: 'Ford Antenna Bold';
+    font-size: 12px;
+    color: $custom-blue;
+}
+
+/* Pendiente de revisar */
+.info-title {
+    position: relative;
+}
+
+.info-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Pendiente de revisar */
+
+ul {
+    list-style-type: none;
+    margin-bottom: 24px;
+    padding: 0;
+}
+
+li {
+    margin-top: 8px;
+
+    &:first-child {
+        margin-top: 0px;
+    }
+
+    font-family: 'Ford Antenna Light';
+    font-size: 14px;
+
+    a {
+        color: $custom-darkergray;
     }
 }
