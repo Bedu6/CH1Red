@@ -57,13 +57,27 @@
 /* /Dato */
 
 /* Evolucionate */
+#evolucionate{
+    padding-top: 5%;
+    padding-right: 30px;
+    padding-bottom: 6%;
+    padding-left: 30px;
+}
+
 #evolucionate img{
     max-width: 100%;
 }
 /* /Evolucionate */
 
 /* top-eco */
+.col-12,.col-lg-6,.col-md-6
+{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 #top-eco img{
     max-width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 /* /top-eco */
