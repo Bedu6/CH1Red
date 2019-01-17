@@ -1,37 +1,45 @@
-.navbar-custom {
-  background-color: #ffffff;
+@media (max-width: 576px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-container {
+    border-style: none;
+  }
 }
-.navbar-custom .navbar-nav .nav-link {
-  color: #2d96cd;
+@media (min-width: 576px) {
+  body {
+    margin: 0;
+    padding: 0 32px;
+  }
+
+  .main-container {
+    border-left: 1px solid #2D96CD;
+    border-right: 1px solid #2D96CD;
+  }
 }
-.navbar-custom .nav-item:hover .nav-link {
-  color: #6b7f8c;
+.bg-ford {
+  background-color: #FFFFFF;
+}
+.bg-ford .navbar-brand {
+  color: #2D96CD;
+}
+.bg-ford .navbar-brand:hover {
+  color: #2D96CD;
+}
+.bg-ford .navbar-nav .nav-link {
+  color: #2D96CD;
+}
+.bg-ford .nav-item:hover .nav-link {
+  color: #6B7F8C;
 }
 
-.custom-button {
-  border-radius: 0;
+.navbar .navbar-toggler {
   border-color: #2d96cd;
-  background-color: #2d96cd;
-  color: #ffffff;
 }
-.custom-button:hover {
-  border-color: #2d96cd;
-  background-color: #ffffff;
-  color: #6b7f8c;
-}
-
-.ford-button-text {
-  border: none;
-  background-color: transparent;
-  color: #2d96cd;
-}
-.ford-button-text:hover {
-  background-color: transparent;
-  color: #2d96cd;
-}
-
-.banner {
-  width: 100%;
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(45, 150, 205, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 /*# sourceMappingURL=cristian.css.map */

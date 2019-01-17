@@ -1,0 +1,22 @@
+@media (max-width: 576px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-container {
+        border-style: none;
+    }
+}
+
+@media (min-width: 576px) {
+    body {
+        margin: 0;
+        padding: 0 32px;
+    }
+
+    .main-container {
+        border-left: 1px solid $custom-blue;
+        border-right: 1px solid $custom-blue;
+    }
+}
