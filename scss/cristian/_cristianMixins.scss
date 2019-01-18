@@ -1,0 +1,10 @@
+@import '../cristian/cristianColors';
+@import '../cristian/cristianFonts';
+
+@mixin setHeadingAttrs($font, $size, $color) {
+    margin: 0;
+    text-align: center;
+    font-family: $font;
+    font-size: $size;
+    color: $color;
+}

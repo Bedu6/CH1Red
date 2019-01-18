@@ -1,3 +1,6 @@
+@import 'cristianColors';
+
+/* Smartphones Size */
 @media (max-width: 576px) {
     body {
         margin: 0;
@@ -9,6 +12,7 @@
     }
 }
 
+/* Tablets, Laptops, Desktops Size */
 @media (min-width: 576px) {
     body {
         margin: 0;
@@ -16,7 +20,7 @@
     }
 
     .main-container {
-        border-left: 1px solid $custom-gray;
-        border-right: 1px solid $custom-gray;
+        border-left: 1px solid $bgGray;
+        border-right: 1px solid $bgGray;
     }
 }
