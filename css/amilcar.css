@@ -16,7 +16,8 @@
     top:0px;
     left:0px;
     border:none;
-    max-width: 50%;
+    max-width: 80%;
+    padding: 50px 50px 50px 50px;
    }
 
 /* #body-carousel img{
@@ -71,8 +72,26 @@
 /*  */
 
 /* Dato */
-#dato img{
-    max-width: 100%;
+.bg-overlay {
+    background:  url("https://sportdrive.com.mx/wp-content/uploads/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 410px;
+    padding-top: 50px;
+}
+
+#dato h1{
+    padding: 100px 10px 27px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#dato h4{
+    padding: 0 10px 50px 10px;
+    text-align: center;
+    font-size:16px;
 }
 /* /Dato */
 
