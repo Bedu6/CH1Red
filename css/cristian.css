@@ -1,0 +1,364 @@
+/* Background Colors */
+/* Button Colors */
+/* Font Colors */
+/* Ford Antenna */
+@font-face {
+  font-family: "Ford Antenna Bold";
+  src: url("../fonts/Ford-Antenna-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Ford Antenna Regular";
+  src: url("../fonts/Ford-Antenna-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Ford Antenna Light";
+  src: url("../fonts/Ford-Antenna-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Ford Antenna Light Italic";
+  src: url("../fonts/Ford-Antenna-Light-Italic.woff") format("woff");
+}
+/* Smartphones Size */
+@media (max-width: 576px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    margin: 0;
+    text-align: center;
+    font-family: "Ford Antenna Regular";
+    font-size: 32px;
+    color: #616161;
+  }
+
+  h2 {
+    margin: 0;
+    text-align: center;
+    font-family: "Ford Antenna Light";
+    font-size: 24px;
+    color: #616161;
+  }
+
+  h3 {
+    margin: 0;
+    text-align: center;
+    font-family: "Ford Antenna Regular";
+    font-size: 16px;
+    color: #F4F4F4;
+  }
+
+  h4 {
+    margin: 0;
+    text-align: center;
+    font-family: "Ford Antenna Light";
+    font-size: 16px;
+    color: #616161;
+  }
+
+  .main-container {
+    border-style: none;
+  }
+
+  .ford-social-networks-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ford-social-networks-display h3 {
+    margin-bottom: 32px;
+  }
+
+  footer {
+    padding: 8px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer p, footer a {
+    font-family: "Ford Antenna Light";
+    font-size: 12px;
+    color: #898989;
+  }
+  footer p {
+    margin: 0;
+    text-align: center;
+  }
+  footer a:hover {
+    color: #898989;
+    text-decoration: none;
+  }
+}
+/* Tablets, Laptops, Desktops Size */
+@media (min-width: 576px) {
+  body {
+    margin: 0;
+    padding: 0 32px;
+  }
+
+  h1 {
+    margin: 0;
+    text-align: center;
+    font-family: "Ford Antenna Regular";
+    font-size: 44px;
+    color: #616161;
+  }
+
+  h2 {
+    margin: 0;
+    text-align: center;
+    font-family: "Ford Antenna Light";
+    font-size: 32px;
+    color: #616161;
+  }
+
+  h3 {
+    margin: 0;
+    text-align: center;
+    font-family: "Ford Antenna Regular";
+    font-size: 16px;
+    color: #F4F4F4;
+  }
+
+  h4 {
+    margin: 0;
+    text-align: center;
+    font-family: "Ford Antenna Light";
+    font-size: 16px;
+    color: #616161;
+  }
+
+  .main-container {
+    border-left: 1px solid #DBDBDB;
+    border-right: 1px solid #DBDBDB;
+  }
+
+  .ford-social-networks-display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+  }
+  .ford-social-networks-display h3 {
+    margin-left: 32px;
+    margin-right: 8px;
+  }
+
+  footer {
+    padding: 32px 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  footer p, footer a {
+    font-family: "Ford Antenna Light";
+    font-size: 12px;
+    color: #898989;
+  }
+  footer p {
+    margin: 0;
+  }
+  footer a {
+    margin: 0 4px;
+  }
+  footer a:hover {
+    color: #898989;
+    text-decoration: none;
+  }
+  footer :last-child {
+    margin-left: auto;
+  }
+}
+.bg-ford {
+  background-color: #FFFFFF;
+}
+.bg-ford .navbar-brand {
+  font-family: "Ford Antenna Bold";
+  font-size: 12px;
+  color: #616161;
+}
+.bg-ford .navbar-brand .navbar-brand-text {
+  margin-left: 8px;
+  line-height: 32px;
+}
+.bg-ford .navbar-brand:hover {
+  color: #616161;
+}
+.bg-ford .navbar-nav .nav-link {
+  font-family: "Ford Antenna Regular";
+  font-size: 16px;
+  color: #0F93BE;
+}
+.bg-ford .nav-item:hover .nav-link {
+  color: #616161;
+}
+
+.navbar .navbar-toggler {
+  border-color: #2D96CD;
+}
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(45, 150, 205, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.btn-ford {
+  width: 250px;
+  height: 50px;
+  border: 1px solid #2D96CD;
+  border-radius: 0;
+  background-color: #2D96CD;
+  font-family: "Ford Antenna Light";
+  font-size: 20px;
+  color: #F4F4F4;
+}
+.btn-ford:hover {
+  border: 1px solid #2D96CD;
+  background-color: #FFFFFF;
+  color: #0F93BE;
+}
+
+.first-banner {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-banner :nth-child(n) {
+  margin-top: 32px;
+}
+.first-banner :first-child {
+  margin-top: 0;
+}
+
+.search {
+  padding: 64px 16px;
+  background-color: #F3F3F3;
+}
+
+.btn-ford-block {
+  display: block;
+  min-width: 100%;
+}
+
+.input-ford {
+  height: 50px;
+  border: none;
+  border-radius: 0;
+  font-family: "Ford Antenna Light Italic";
+  font-size: 20px;
+}
+.input-ford:hover, .input-ford:focus, .input-ford:active {
+  box-shadow: none;
+}
+
+.btn-input-ford {
+  width: 20%;
+  padding: 0;
+  border: none;
+  background-color: #FFFFFF;
+  font-size: 32px;
+  color: #9E9E9E;
+  cursor: pointer;
+}
+
+.link-ford {
+  font-family: "Ford Antenna Bold";
+  font-size: 12px;
+  color: #0F93BE;
+}
+.link-ford:hover {
+  color: #0078A0;
+  text-decoration: none;
+}
+
+.second-banner {
+  position: relative;
+}
+.second-banner .btn-second-banner {
+  position: absolute;
+  bottom: 64px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.feed-text-container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 64px;
+}
+
+.feed-image-container {
+  position: relative;
+  width: 100%;
+}
+
+.feed-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 24px 16px;
+  border: none;
+  text-align: center;
+  background-color: rgba(128, 194, 224, 0.5);
+  color: #F4F4F4;
+  font-family: "Ford Antenna Regular";
+  font-size: 16px;
+  cursor: pointer;
+}
+.feed-button:hover {
+  background-color: rgba(128, 194, 224, 0.75);
+}
+
+.separator {
+  width: 100%;
+  height: 64px;
+  background-color: #343434;
+}
+
+.ford-list-links {
+  background-color: #252525;
+}
+
+.ford-list-links-container {
+  margin-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.ford-list-links-container > h3 {
+  text-align: left;
+}
+
+ul.ford-list-links {
+  margin: 0;
+  padding: 16px 0 0 0;
+  font-family: "Ford Antenna Light";
+  font-size: 14px;
+  list-style-type: none;
+}
+ul.ford-list-links li {
+  margin-top: 8px;
+}
+ul.ford-list-links li:first-child {
+  margin-top: 0;
+}
+ul.ford-list-links li a {
+  color: #898989;
+}
+ul.ford-list-links li a:hover {
+  text-decoration: none;
+}
+
+.ford-social-networks-container {
+  padding: 64px 32px;
+  background-color: #1B394E;
+}
+
+.ford-social-networks-icons a {
+  margin: 0 4px;
+}
+
+/*# sourceMappingURL=cristian.css.map */
