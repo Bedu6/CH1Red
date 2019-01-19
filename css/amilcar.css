@@ -1,3 +1,7 @@
+body, html{
+    overflow-x: hidden;
+}
+
 p{
     display: block;
     margin-block-start: 1em;
@@ -222,6 +226,21 @@ ul{
     padding-inline-start: 40px;
 }
 
+#posicionb{
+    position: absolute;
+    left: 10%;
+    bottom: 3%;
+}
+
+#posicionl{
+    position: absolute;
+    left: 5%;
+}
+
+#posiciont{
+    position: absolute;
+    left: 5%;
+}
 
 .bg-overlay2{
     background:url("https://sportdrive.com.mx/wp-content/uploads/bg-topsport.jpg");
@@ -252,3 +271,55 @@ ul{
     max-width: 100%;
 }
 /* /top-eco */
+
+/* Promociones */
+
+#promociones{
+    padding: 100px 0 40px 5px !important;
+}
+
+#promociones h1{
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-family: 'Rubik';
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    font-size: 34px;
+    color: #333333;
+    text-align: left;
+}
+
+#promociones p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin: 0 0 20px;
+    text-align: left;
+    color: #747474;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#posicionpromo{
+    position: absolute;
+    left: 3%;
+    
+}
+/* /promociones */
+
+/* footer */
+#footer{
+    padding: 50px 0 50px 0;
+    background-color: #282a2b;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+#footer a{
+    color: #fff;
+}
+/* /footer */
