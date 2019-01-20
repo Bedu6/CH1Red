@@ -1,0 +1,325 @@
+body, html{
+    overflow-x: hidden;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*Header  */
+ /* .navbar{
+    padding: .5rem 60px .5rem 60px;
+    margin: 0 75px 0 75px;
+ } */
+
+ #header ul li{
+    padding-right: 50px;
+ }
+
+ #header img{
+     padding-right: 0;
+ }
+
+ a.nav-link{
+     padding-right: 0 !important;
+     padding-left: 0 !important;
+ }
+
+/*  .first{
+     padding-left: 30px !important;
+ } */
+/* /Header */
+
+/* Carrousel */
+.col{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#body-carousel{
+    position: relative;
+}
+
+.sobre {
+    position:absolute;
+    top:0px;
+    left:0px;
+    border:none;
+    max-width: 80%;
+    padding: 50px 50px 50px 50px;
+   }
+
+/* #body-carousel img{
+    max-width: 100%;
+}
+ */
+
+/* /Carrousel */
+
+/* bodyPart2 */
+#bodyPart2{
+    background-color: #ffffff;
+    padding: 6.797px 30px 40px 30px;
+}
+
+.bienvenido{
+    padding: 20px 20px 20px 20px;
+}
+
+#bodyPart2 h1{
+    color: #333333;
+    font-size: 34px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+}
+
+#bodyPart2 h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+
+}
+
+#bodyPart2 h4{
+    font-size: 13px;
+    color: #89919f;
+    font-family: 'Rubik';
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+
+#bodyPart2 img{
+    max-width: 100%;
+}
+/* /bodyPart2 */
+
+/*  */
+
+/* Dato */
+.bg-overlay1 {
+    background:  url("https://sportdrive.com.mx/wp-content/uploads/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 410px;
+    padding-top: 50px;
+}
+
+#dato h1{
+    padding: 100px 10px 27px 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+#dato h4{
+    padding: 0 10px 50px 10px;
+    text-align: center;
+    font-size:16px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+/* /Dato */
+
+/* Evolucionate */
+#evolucionante{
+    padding-top: 5%;
+    padding-right: 30px;
+    padding-bottom: 6%;
+    padding-left: 30px;
+}
+
+#evolucionante img{
+    max-width: 100%;
+}
+
+.per{
+    padding: 0 15px 0 15px !important;
+}
+
+.mul{
+    padding: 0 15px 0 15px !important;
+}
+
+#evolucionante h2{
+    font-style: italic;
+    color: #333333;
+    font-size: 34px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    margin: 0 0 20px;
+}
+
+#evolucionante h3{
+    font-size: 28px;
+    line-height: 33px;
+}
+
+#evolucionante h4{
+    font-family: 'Rubik';
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    font-size: 13px;
+    margin: 0 0 20px;
+}
+
+#evolucionante p{
+    color: #747474;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font: 13px/20px PTSansRegular,Arial,Helvetica,sans-serif;
+    margin: 0 0 20px;
+}
+
+/* /Evolucionate */
+
+/* top-eco */
+#top-eco h2{
+    font-family: 'Rubik';
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    font-size: 18px;
+}
+
+#top-eco h3{
+    font-size: 16px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#posicionb{
+    position: absolute;
+    left: 10%;
+    bottom: 3%;
+}
+
+#posicionl{
+    position: absolute;
+    left: 5%;
+}
+
+#posiciont{
+    position: absolute;
+    left: 5%;
+}
+
+.bg-overlay2{
+    background:url("https://sportdrive.com.mx/wp-content/uploads/bg-topsport.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 600px;
+    padding-top: 50px;
+}
+
+.bg-overlay3{
+    background:url("https://sportdrive.com.mx/wp-content/uploads/bg-ecodrive.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 600px;
+    padding-top: 50px;
+}
+
+.col-12,.col-lg-6,.col-md-6
+{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#top-eco img{
+    max-width: 100%;
+}
+/* /top-eco */
+
+/* Promociones */
+
+#promociones{
+    padding: 100px 0 40px 5px !important;
+}
+
+#promociones h1{
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-family: 'Rubik';
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    font-size: 34px;
+    color: #333333;
+    text-align: left;
+}
+
+#promociones p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin: 0 0 20px;
+    text-align: left;
+    color: #747474;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#posicionpromo{
+    position: absolute;
+    left: 3%;
+    
+}
+/* /promociones */
+
+/* footer */
+#footer{
+    padding: 50px 0 50px 0;
+    background-color: #282a2b;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+#footer a{
+    color: #fff;
+}
+/* /footer */
